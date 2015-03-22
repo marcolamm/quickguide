@@ -8,52 +8,51 @@
 	<link rel="stylesheet" href="css/mainpage.css">
 	<link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
 	<link rel="stylesheet" href="css/SQS.min.css" />
-	<script src="lib/jquery-2.1.1.min.js"></script>
+	<link rel="shortcut icon" href="images/favicon.png"/>
+	<link rel="apple-touch-icon-precomposed" href="images/SQS_Logo_rgb_169_159.jpg"/>	
+		
+	<script src="lib/jquery-2.1.3.min.js"></script>
 	<script src="lib/jquery.mobile-1.4.5.min.js"></script>
-	<script src="lib/model.js"></script>
-	<script src="lib/mvc.js"></script>
-		<script type="text/javascript" src="js/pdfobject.js"></script>
+	<!--<script src="js/model.js"></script>
+	<script src="js/mvc.js"></script>-->
+	<script type="text/javascript"></script>
+		
+	<!--Testdaten--------------->
+		<script src="js/quickguideData.js"></script>
+		<!--Testdaten--END------------->	
 	<title>QUICKGUIDE MOBILE TESTING - SQS</title>
-		<script type="text/javascript"></script>
 		
-<link rel="apple-touch-icon-precomposed" href="images/SQS_Logo_rgb_169_159.jpg"/>
-		
-</head>
+	</head>
 <body>
-
+	
 		<div id="SQS-welcome" data-role="page">
 
 
 			<div data-role="header"  data-position="fixed" data-theme="c" style="font-family: 'Roboto Condensed', sans-serif; font-size:25px">
-
 				<!-- <h1> <img alt="" src="img/SQS-Logo-rgb-web.svg" /> SQS-Mobile Quickguide</h1> -->
-
 				<img style="-webkit-user-select: none" src="data:image/webp;base64,UklGRpgCAABXRUJQVlA4IIwCAACwDwCdASpGAEIAPmkqkUWkIqGaOoY4QAaEsQArtad/6Ue4Dbb+YDz4dMA57f2hZbW4TL2Ztqc0PyNvhzZ3Mt3JUJ66Zllev6JHHhGFRWK4Ts+/jpCddLIB6tk8HqNWrrG4APvLaSGw3gMbg16638pHQEPcI/xv9daMtMY/hO9JksGUXfAIAAD+8MQF9DT//5Bj/Q1/gruwEOp32PhL9niaD66ZKszgPk7fIzX9nsRblb6d/28p/sAu3IWfzYNLDVk/kR9X1b74n6V6mZmSHBMUMrD7POZ7SRf4gIf/Sv6djfib+/mVAAelPQyTgnd3zaZpS2iICJVDonn3AaeIxtHP1iMR7Dg8AzTNrsP//ErIAgJHF76HR5eMquH+vG/7A5Tc/+DDlM/JT0LoTz63UoMGS5K4Vv0Db8IvCX2wUpeDC0ifn6gfvPQhWEJEKR+Pl7pSvmz58hl/cqmPaf/oOb/+dr2zf46l5DUv5AP4Hopx0nbGfAwJ6utvkxdtFf+Bdpp4wOaxbqBgYj8tUfPqD1TS2LWf15xu653GnOtkVLzLEkLnX3jJlcV8L9e85KF/KX4sKhps1a1TJOFBTMbZQFdmKx8yEscAt7bhieJ4qvXCPutYQHfT4W3LWsGK04lnmUzh81BckMZ3xijcrpNijqbh67/7/4XrB+Btx0vv+VsTC/qLpVkn3L0h8C++2W58FZRoJVJ/AKUfmOyaPqNeA5QN5EZzMlbbQUKnbfXJzezDzbPu/Arv4siYXLJ+HGgueLA18cBZaS9aQmZDeTunplMYWbSMyk5DtUyIBRqfgspXUbw9rLlQyoHQalknWRh0gQBiEAB5yJAH8A5iOeBvYjodP74J4UbtlDnAAAAA" >       Mobile Quickguide
 
 		<!--<div data-role="collapsible" data-theme="c" data-content-theme="a" data-inset="true"> -->
 			   <!--<div data-icon="home" data-role="button" data-shadow="false" data-iconpos="notext"
 				 class="ui-btn-right" id="newWertung"></div>-->
 			<a href="#about" data-rel="dialog" data-shadow="false" data-icon="info" data-role="button" data-iconpos="notext" class="ui-btn-right" ></a>
-			
-				</div>
-
-			<div data-role="content" data-theme="c" style="font-family: 'Roboto Condensed', sans-serif;">
-				<ul data-role="listview" data-inset="true">
-					<li data-role="list-divider">Topics</li>
-					<li><a href="#sqs-details">SQS Mobile Testing Service</a></li>
-					<li><a href="#quickguide">Documentation</a></li>
-					<li><a href="#pdf">Mobile Testing Tools</a></li>
-					<li><a href="#mad">Mobile App Development</a></li>
-					<li><a href="survivalkit.htm" rel="external">QUICKGUIDE</a></li>
-					<li data-role="list-divider">Links</li>
-					<li><a href="http://www.sqs.com" rel="external">SQS - Group</a>
-				</ul>
 			</div>
 
-
+			<div  data-role="content" type="search" data-theme="c" style="font-family: 'Roboto Condensed', sans-serif;">
+				<ul data-role="listview" data-inset="true">
+					<li data-role="list-divider">Topics</li>
+					<li><a href="#category-items?category=mobTS" >SQS Mobile Testing Service</a></li>
+					<li><a  href="#category-items?category=docum">Documentation</a></li>			
+					<li><a href="#category-items?category=mobTT">Mobile Testing Tools</a></li>
+					<li><a href="#category-items?category=mobAD">Mobile App Development</a></li>
+					<li><a href="survivalkit.htm" rel="external">QUICKGUIDE</a></li>
+					<li data-role="list-divider">Links</li>
+					<li><a href="http://www.sqs.com"  rel="external" >SQS - Group</a></li>
+				</ul>			
+			</div>
 		<!-- </div>--> 
 
-			<!-- <div data-role="collapsible" data-inset="true"> -->
+	<!-- <div data-role="collapsible" data-inset="true"> -->
 			<div style="font-family: 'Roboto Condensed', sans-serif; font-size:15px">
 			<h2>Links, Info, Search</h2>
 			</div>
@@ -67,99 +66,39 @@
 					</ul>
 				</div>
 			</div>
-			</div>
-
+			<!-- </div> -->
 		</div>
-
 
 	<!-- SQS Eintrag 1 Test ----------------------------------------------------------------------->
-	<div id="sqs-details" data-role="page">
-		<div data-role="header" data-position="fixed">
-		<h1>SQS Mobile Testing Service</h1>
-			<a href="#SQS-welcome" id="home" data-icon="home" data-role= "button" data-shadow="true" data-iconpos="left" data-theme="c" 
+	<div id="category-items" data-role="page" data-theme="c" style="font-family: 'Roboto Condensed', sans-serif; ">
+		
+			<div data-role="header" data-position="fixed">
+				<h1>SQS Mobile Testing Service</h1>
+				<a href="#SQS-welcome" id="home" data-icon="home" data-role= "button" data-shadow="true" data-iconpos="left" data-theme="c" 
 			   class="ui-btn-right jqm-home">HOME</a>
+			
 
-		 </div>
-	   <div data-role="content" data-theme="c" style="font-family: 'Roboto Condensed', sans-serif;">
-		   		<ul data-role="listview" data-inset="true">
-					<li data-role="list-divider">SQS Mobile Testing Service</li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-				</ul>
-		   
-		   
+			</div>
+			<div  data-role="content" data-theme="c" style="font-family: 'Roboto Condensed', sans-serif; font-size:25px ">
+<!--				<table data-role="table" data-mode="columntoggle" class="ui-responsive" id="myTable">-->
+<!--				<ul data-role="listview" data-inset="true" >-->
+
+			</div>
+		<div data-role="footer" data-theme="c">
+				<div data-role="navbar">
+					<ul>
+						<li><a data-icon="info" data-rel="dialog"  href="#aboutinfo" >About</a></li>
+						<li><a data-icon="star" href="#details">Music</a></li>
+						<li><a data-icon="search" href="#search">Search</a></li>
+					</ul>
+				</div>
 		</div>
+	
 	</div>
-
-		 <!-- SQS Eintrag 2 Kontakte------------------------------------------------------- -->
-		<div id="quickguide" data-role="page">
-		<div data-role="header" data-position="fixed">
-			<h1>DOCUMENTATION</h1>
-			   <a href="#SQS-welcome" id="home" data-icon="home" data-role= "button" data-shadow="true" data-iconpos="left" data-theme="c" class="ui-btn-right jqm-home">HOME</a>
-
-		</div>
-			<div data-role="content" data-theme="c" style="font-family: 'Roboto Condensed', sans-serif;">
-		   		<ul data-role="listview" data-inset="true">
-					<li data-role="list-divider">DOCUMENTATION</li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-				</ul>
-		   
-		   
-		</div>
-		</div>
-
-		<!-- SQS Eintrag 3 Survival Kit PDF------------------------------------------------------- -->
-		<div id="pdf" data-role="page">
-		<div data-role="header" data-position="fixed">
-			<h1>MOBILE TESTING TOOLS</h1>
-					   <a href="#SQS-welcome" id="home" data-icon="home" data-role= "button" data-shadow="true" data-iconpos="left" data-theme="c" class="ui-btn-right jqm-home">HOME</a>
-
-		</div>
-		<div data-role="content" data-theme="c" style="font-family: 'Roboto Condensed', sans-serif;">
-					<ul data-role="listview" data-inset="true">
-					<li data-role="list-divider">MOBILE TESTING TOOLS</li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-				</ul>
-			
-		</div>
-		</div>
-
-		
-		<!-- SQS Eintrag 4 Mobile App development------------------------------------------------------- -->
-		<div id="mad" data-role="page">
-		<div data-role="header" data-position="fixed">
-			<h1>Mobile App Development</h1>
-					   <a href="#SQS-welcome" id="home" data-icon="home" data-role= "button" data-shadow="true" data-iconpos="left" data-theme="c" class="ui-btn-right jqm-home">HOME</a>
-
-		</div>
-		<div data-role="content" data-theme="c" style="font-family: 'Roboto Condensed', sans-serif;">
-		
-			<ul data-role="listview" data-inset="true">
-					<li data-role="list-divider">Mobile App Development</li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-					<li><a href="">xx</a></li>
-				</ul>
-			
-		</div>
-		</div>
-
+ 
 		
 <!--aboutinfo---------------------------------------------------------------------------------------------------------->
-		<div id="aboutinfo" data-role="page" data-add-back-btn="true" data-theme="c" style="font-family: 'Roboto Condensed', sans-serif;" >
+		<div id="aboutinfo" data-role="page" data-add-back-btn="true" data-theme="c" style="font-family: 'Roboto Condensed', sans-serif; " >
 
 			<div data-role="header">
 			<h2>Credits</h2>
@@ -169,7 +108,6 @@
 				Web-Application programmed by Marco Lamm.
 				Programmed with JQuery Mobile.
 				ZHAW - 10.01.2015
-				
 			</div>
 		</div>
 
@@ -184,18 +122,15 @@
 			<div data-role="content">
 			--  This App holds lots of Information about Mobile Testing  --<br> 
 				<br> 
-				You can save it to your screen using your smartphones'/tablets' menu
+				You can save it to your screen using your smartphone's/tablet's menu
 				<br>
 				<br>In case of feedback do not hesitate to contact me<br>
 				Marco.Lamm@sqs.com
 				
 			</div>
 		</div>
-
-
-
-
 		<!--END  ... ModelDialog - ABOUT--------------------------------------------------------------------------------------------------- -->
+		 
 
 <!--    Search Link Page-------------------------------------------------------------------------->
 
@@ -206,42 +141,61 @@
  <h1>Search</h1>
 
 </div>
-<div data-role="content">
-
-<label><input type="checkbox" name="checkbox-0" data-theme="a"> I agree </label>
-<input type="button" value="Confirm">
-<fieldset>
-  <div data-role="fieldcontain">
-    <label for="checkbox-based-flipswitch" >Checkbox-based:</label>
-    <input type="checkbox" id="checkbox-based-flipswitch" data-role="flipswitch" data-theme="a">
-	<br>
-		<br>
-			<br>
-				<br>
-	<label for="clear-demo">Text Input:</label>
-<input type="text" name="clear" id="clear-demo" value="" data-clear-btn="true", width: 200px>
-<label for="clear-demo">Date Input:</label>
-<input type="date" name="clear" id="clear-demo" value="" data-clear-btn="true">
+	
+	<div data-role="main" class="ui-content">
+    <form method="post" action="demoform.asp">
+      <div class="ui-field-contain">
+        <label for="search">Search:</label>
+        <input type="search" name="search" id="search" placeholder="Search for content...">
+      </div>
+      <input type="submit" data-inline="true" value="Submit">
+    </form> 
   </div>
-</fieldset>
 </div>
+	
+
 </div>
 
 
 
 		<!-- Musik Player Test -->
 
-		<div id="details" data-role="page">
-			<p>HALLO</p>
-			<div data-role="main" data-position="fixed">
-				<audio src="img/Taio Cruz - Hangover.mp3" controls preload="auto" ></audio>
+		<div id="details" data-role="page" data-theme="c" style="font-family: 'Roboto Condensed', sans-serif;">
+			<div data-role="header" data-position="fixed">
+				<a href="#SQS-welcome" id="home" data-icon="home" data-role= "button" data-shadow="true" data-iconpos="left" data-theme="c" class="ui-btn-right jqm-home">HOME</a>
+				<h1>Diese Seite ist noch zu haben!!</h1>
+				
 			</div>
-			<a href="#SQS-welcome" id="home" data-icon="home" data-role= "button" data-shadow="false" data-iconpos="right" class="ui-btn-right jqm-home">Home</a>
+			
+			
 			<div data-role="content">
-				<p>Details</p>
+				<!--<table data-role="table" data-mode="columntoggle" class="ui-responsive" id="myTable">
+  <thead>
+    <tr>
+      <th data-priority="6">CustomerID</th>
+      <th>CustomerName</th>
+      <th data-priority="1">ContactName</th>
+      <th data-priority="2">Address</th>
+      <th data-priority="3">City</th>
+      <th data-priority="4">PostalCode</th>
+      <th data-priority="5">Country</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Obere Str. 57</td>
+      <td>Berlin</td>
+      <td>12209</td>
+      <td>Germany</td>
+    </tr>
+  </tbody>
+</table>-->
 			</div>
 		</div>
 
 
 	</body>
-	</html>
+</html>

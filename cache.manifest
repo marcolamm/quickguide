@@ -5,3 +5,10 @@
 /css/SQS.min.css
 /mainpage.css
 /img/SQS-Logo-rgb-web.svg
+
+
+NETWORK:
+data/updatingJSONdata.js
+
+FALLBACK:
+data/ data/standardJSONdata.js
