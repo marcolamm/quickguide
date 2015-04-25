@@ -282,7 +282,7 @@ function showCategory( urlObj, options )
 		// and add it to our markup.
 		for ( var i = 0; i < numItems; i++ ) {
 	markup += "<li>" + cItems[i].name+ "    <br> -       " + cItems[i].descr+"  <br> " + cItems[i].contact+" <br> " + cItems[i].e_mail+" <br> " + cItems[i].link +" </li>";
-			/*markup += "<thead> <tr><th data-priority="+i+">CustomerID</th><th>CustomerName</th><th data-priority="+i+">ContactName</th>th data-priority="2">Address</th><th data-priority="3">City</th><th data-priority="4">PostalCode</th><th data-priority="5">Country</th></tr></thead><tbody><tr>  <td>"+i+"</td>   <td>" + cItems[i].name+ "</td>  <td>" + cItems[i].descr+"</td><td>Obere Str. 57</td><td>Berlin</td>  <td>12209</td> <td>Germany</td> </tr>  </tbody></table>"*/
+			
 			
 		}
 		markup += "</ul>";

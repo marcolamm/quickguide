@@ -1,14 +1,11 @@
 ﻿CACHE MANIFEST
-
 /index.html
 /survivalkit.htm
 /css/SQS.min.css
-/mainpage.css
+/css/mainpage.css
 /img/SQS-Logo-rgb-web.svg
+/js/quickguideData.js
 
 
-NETWORK:
-data/updatingJSONdata.js
-
-FALLBACK:
-data/ data/standardJSONdata.js
+SETTINGS:
+prefer-online
